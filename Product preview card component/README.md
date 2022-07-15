@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-Gw3bScsPK2](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-Gw3bScsPK2)
 - Live Site URL: [https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/](https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/)
 
 ## My process
