@@ -92,11 +92,21 @@ h2 {
   border: none;
   border-radius: 6px;
 }
+.product-card__btn:hover {
+  background: hsl(158deg, 36%, 29%);
+}
+.product-card__btn:active {
+  background: hsl(158deg, 38%, 24%);
+}
 
 .attribution {
   font-size: 0.8rem;
   position: absolute;
   bottom: 0;
+  color: hsl(158deg, 38%, 24%);
+}
+.attribution a {
+  color: hsl(228deg, 12%, 48%);
 }
 
 @media only screen and (min-width: 64rem) {

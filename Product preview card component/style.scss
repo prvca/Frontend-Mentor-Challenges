@@ -2,6 +2,8 @@
 $color__background: hsl(30, 38%, 92%); //cream
 $color__base: hsl(228, 12%, 48%);
 $color__accent: hsl(158, 36%, 37%); //cyan
+$color__accent--darker: hsl(158, 36%, 29%);
+$color__accent--darkest: hsl(158, 38%, 24%); //cyan
 
 $font__heading: 'Fraunces', serif;
 $font__body: 'Montserrat', sans-serif;
@@ -111,6 +113,14 @@ h2 {
         color: #fff;
         border: none;
         border-radius: 6px;
+
+        &:hover {
+          background: $color__accent--darker;
+        }
+
+        &:active {
+            background: $color__accent--darkest;
+        }
     }
 }
 
@@ -118,6 +128,11 @@ h2 {
     font-size: .8rem;
     position: absolute;
     bottom: 0;
+    color: $color__accent--darkest;
+    
+    & a{
+        color: $color__base;
+    }
 }
 
 
