@@ -20,7 +20,6 @@ h2 {
     margin: 0;
 }
 
-
 // site styles
 .site__body {
     background: $color__background;
@@ -34,7 +33,6 @@ h2 {
 
 .site__main {
     padding: 20px 15px;
-
     color: $color__base;
     font-family: $font__body;
 }
@@ -43,14 +41,11 @@ h2 {
     max-width: 345px;
     background: #fff;
     border-radius: 10px;
-    min-width: 0;
-    overflow-wrap: break-word;
 
     &__img {
         width: 100%;
         height: 100%;
         border-radius: 10px 10px 0 0;
-        
     }
 
     &__content {
@@ -143,14 +138,11 @@ h2 {
       max-width: 615px;
       
       &__image {
-        background: url("../images/image-product-desktop.jpg") no-repeat;
-        background-size: cover;
         width: 50%;
-        border-radius: 6px 0 0 6px;
       }
-    
+
       &__img {
-        display: none;
+        border-radius: 10px 0 0 10px;
       }
 
       &__content {

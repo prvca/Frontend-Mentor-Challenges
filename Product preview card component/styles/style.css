@@ -30,8 +30,6 @@ h2 {
   max-width: 345px;
   background: #fff;
   border-radius: 10px;
-  min-width: 0;
-  overflow-wrap: break-word;
 }
 .product-card__img {
   width: 100%;
@@ -115,13 +113,10 @@ h2 {
     max-width: 615px;
   }
   .product-card__image {
-    background: url("../images/image-product-desktop.jpg") no-repeat;
-    background-size: cover;
     width: 50%;
-    border-radius: 6px 0 0 6px;
   }
   .product-card__img {
-    display: none;
+    border-radius: 10px 0 0 10px;
   }
   .product-card__content {
     width: 50%;
