@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view screenshot](/images/completed-mobile-view-screenshot.png)
-![Desktop view screenshot](/images/completed-desktop-view-screenshot.png)
+![Mobile view screenshot](images/completed-mobile-view-screenshot.png)
+![Desktop view screenshot](images/completed-desktop-view-screenshot.png)
 
 ### Links
 
@@ -57,7 +57,7 @@ html {
 }
 ```
 
-2. I learned I could use the <picture> element to display a different image based on the screen breakpoints. That way I could show image-product-mobile.jpg for the mobile view and image-product.desktop.jpg for the desktop view.
+2. I learned I could use the picture element to display a different image based on the screen breakpoints. That way I could show image-product-mobile.jpg for the mobile view and image-product.desktop.jpg for the desktop view.
 
 ``` html
 <picture>
@@ -84,7 +84,6 @@ html {
 - [CSS-Tricks](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture) - This article explained <picture> and how to use it.
 - [Bunny Fonts](https://fonts.bunny.net/) - Used this website for fonts as an alternative to Google Fonts.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
