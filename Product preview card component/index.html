@@ -6,30 +6,35 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <link rel="stylesheet/less" type="text/css" href="style.scss">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=fraunces:700|montserrat:500,700" rel="stylesheet" />
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   
 </head>
-<body>
-  <div class="product-card">
-    <img class="product-card__img" src="images/image-product-mobile.jpg" alt="" width="686px" height="480px">
-    <span class="product__type">Perfume</span>
-    <h2 class="product-card__title">Gabrielle Essence Eau De Parfum</h2>
-    <p class="product-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-      Perfumer-Creator for the House of CHANEL.</p>
-    <span class="product-card__current-price">$149.99</span>
-    <span class="product-card__previous-price">$169.99</span>
-    <button class="product-card__btn">Add to Cart</button>
-  </div>
-
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Courtney Province</a>.
-  </div>
+<body class="site__body">
+  <main class="site__main">
+    <div class="product-card">
+      <img class="product-card__img" src="images/image-product-mobile.jpg" alt="" width="686px" height="480px">
+      <div class="product-card__content">
+          <span class="product-card__type">Perfume</span>
+          <h2 class="product-card__title">Gabrielle Essence Eau De Parfum</h2>
+          <p class="product-card__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+         <div class="product-card__pricing-container">
+           <span class="product-card__current-price">$149.99</span>
+           <span class="product-card__previous-price">$169.99</span>
+        </div>
+        <button class="product-card__btn"><img class="icon icon-shopcart" src="images/icon-cart.svg" />Add to Cart</button>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Courtney Province</a>.
+    </div>
+  </main>
 </body>
 </html>

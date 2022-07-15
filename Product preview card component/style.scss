@@ -1,3 +1,123 @@
-body {
-    background: pink;
+
+$color__background: hsl(30, 38%, 92%); //cream
+$color__base: hsl(228, 12%, 48%);
+$color__accent: hsl(158, 36%, 37%); //cyan
+
+$font__heading: 'Fraunces', serif;
+$font__body: 'Montserrat', sans-serif;
+
+h2 {
+    margin: 0;
 }
+
+
+.site__body {
+    background: $color__background;
+    padding: 0;
+    margin: 0;
+}
+.site__main {
+    padding: 20px 15px;
+
+    color: $color__base;
+    font-family: $font__body;
+    
+}
+
+.product-card {
+    margin: 0 auto;
+    max-width: 360px;
+    background: #fff;
+    border-radius: 10px;
+    min-width: 0;
+    overflow-wrap: break-word;
+    
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        
+    }
+
+    &__content {
+        padding: 18px 25px 25px;
+
+    }
+
+    &__type {
+        font-family: $font__body;
+        text-transform: uppercase;
+        font-size: .8rem;
+        letter-spacing: 3px;
+
+    }
+
+    &__title {
+        font-family: $font__heading;
+        font-size: 2rem;
+        margin: 12px 0;
+        line-height: 1;
+        color: #000;
+    }
+
+    &__description {
+        font-size: .8rem;
+        line-height: 1.75;
+    }
+
+    &__pricing-container {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        // display: grid;
+        // align-items: center;
+        // grid-row-gap: 15px;
+    }
+
+    &__current-price {
+        color: $color__accent;
+        font-family: $font__heading;
+        font-size: 2rem;
+        flex: 1;
+        // grid-column-start: 1;
+        // grid-column-end: 2;
+    }
+
+    &__previous-price {
+        font-size: .75rem;
+        text-decoration: line-through;
+        padding: 0px;
+        flex: 1;
+        // grid-column: 2;
+        // grid-column-end: 6;
+        // vertical-align: baseline;
+    }
+
+    &__btn {
+        width: 100%;
+        display: block;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 15px 0;
+        background: $color__accent;
+        font-family: $font__body;
+        font-weight: bold;
+        // font-size: 12px;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+
+       
+    }
+}
+
+.attribution {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 0;
+}
+
