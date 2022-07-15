@@ -32,14 +32,15 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
+- SCSS variables
 - Flexbox
 - Mobile-first workflow
 
@@ -80,7 +81,7 @@ html {
 
 ### Useful resources
 
-- [CSS-Tricks](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture) - This explained <picture> and how to use it.
+- [CSS-Tricks](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture) - This article explained <picture> and how to use it.
 - [Bunny Fonts](https://fonts.bunny.net/) - Used this website for fonts as an alternative to Google Fonts.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
