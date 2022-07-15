@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/)
+- Live Site URL: [https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/](https://prvca.github.io/Frontend-Mentor-Challenges/Product%20preview%20card%20component/)
 
 ## My process
 
