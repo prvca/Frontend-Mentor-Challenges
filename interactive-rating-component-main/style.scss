@@ -1,0 +1,171 @@
+$color__very-dark-blue:hsl(216, 12%, 8%);
+$color__dark-blue: hsl(213, 19%, 18%);
+$color__dark-blue2: hsl(213, 19%, 23%);
+$color__medium-grey: hsl(216, 12%, 54%);
+$color__light-grey: hsl(217, 12%, 63%);
+$color__orange: hsl(25, 97%, 53%);
+$color__white: hsl(0, 0%, 100%);
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $color__very-dark-blue;
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: $color__white;
+}
+
+p {
+    font-size: .9375rem;
+    color: $color__light-grey;
+}
+
+.svg-container {
+    background: $color__dark-blue2;
+    display: inline-block;
+    padding: 12px;
+    line-height: 0;
+    border-radius: 50px;
+}
+ 
+.card {
+    margin: 0 auto;
+    background: $color__dark-blue;
+    padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 340px;
+
+    &__heading {
+        font-size: 1.6rem;
+        margin: 10px 0;
+    }
+
+    &__text {
+        line-height: 1.4;
+        margin: 0;
+    }
+}
+
+.rate-btn {
+    background: $color__dark-blue2;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: $color__medium-grey;
+
+    &:active {
+        background: $color__white;
+    }
+}
+
+.form {
+
+    &__btn {
+        background: hsl(25, 97%, 53%);
+        display: block;
+        width: 100%;
+        font-size: .875rem;
+        color: $color__white;
+        padding: 12px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Overpass';
+        letter-spacing: 3px;
+        font-weight: bold;
+
+        &:active {
+            background: #fff;
+            color: $color__orange;
+        }
+    }
+}
+
+
+.radio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.input-radio {
+    display: inline-block;
+}
+
+input[type=radio] {
+    display: none;
+    margin: 0;
+}
+
+
+label {
+    background: $color__dark-blue2;
+    min-width: 40px;
+    padding: 12px 15px 10px;
+    font-size: .875rem;
+    border-radius: 50%;
+    color: $color__light-grey;
+    text-align: center;
+    display: inline-block;
+}
+input[type=radio] + label {
+    &:active {
+        background: $color__orange;
+    }
+}
+
+input[type=radio]:checked + label {
+    color: #fff;
+    background: $color__light-grey;
+  }
+
+input [type=submit] {
+    font-family: 'Overpass';
+}
+
+.thank-you-card {
+    display: none;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.rating {
+    background: $color__dark-blue2;
+    display: inline-block;
+    padding: 9px 12px 5px;
+    border-radius: 20px;
+    color: $color__orange;
+}
+
+.attribution {
+   position: absolute;
+   bottom: 0;
+   color: $color__light-grey;
+   font-size: .8rem;
+   width: 100%;
+   margin: 0;
+   text-align: center;
+
+   & a {
+    color:hsl(25, 97%, 53%);
+   }
+}
