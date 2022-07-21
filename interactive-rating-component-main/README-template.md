@@ -53,11 +53,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Javascript
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -67,8 +64,14 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
+1. I learned how to style radio buttons and their corresponding labels to create the numbered buttons. It was a bit of a challenge! I first considered using button elements, but I learned it was not accessible. Instead, I learned I could style the radio button's label and hide the actual radio input itself.
+
+
+
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="input-radio">
+            <input type="radio" class="rate-btn" name="rating" id="1" value=1><label for="1">1</label>
+          </div>
 ```
 ```css
 .proud-of-this-css {

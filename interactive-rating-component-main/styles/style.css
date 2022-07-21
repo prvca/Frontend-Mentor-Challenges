@@ -1,5 +1,9 @@
-* {
+html {
   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 form {
@@ -40,16 +44,16 @@ p {
 .card {
   margin: 0 auto;
   background: hsl(213deg, 19%, 18%);
-  padding: 30px 20px;
+  padding: 30px 25px;
   border-radius: 15px;
-  max-width: 340px;
+  max-width: 350px;
 }
 .card__heading {
   font-size: 1.6rem;
   margin: 10px 0;
 }
 .card__text {
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -112,6 +116,7 @@ label {
 
 input[type=radio] + label:active {
   background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 input[type=radio]:checked + label {
@@ -149,4 +154,13 @@ input [type=submit] {
 }
 .attribution a {
   color: hsl(25deg, 97%, 53%);
+}
+
+@media only screen and (min-width: 64rem) {
+  .card {
+    max-width: 375px;
+  }
+  label {
+    padding: 15px 20px 13px;
+  }
 }/*# sourceMappingURL=style.css.map */

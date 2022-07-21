@@ -1,22 +1,16 @@
-// alert('hi');
+
 const form = document.querySelector('#form');
 
 let rateButtons = document.getElementsByClassName("rate-btn");
 let rating = 0;
 
-// form.addEventListener('submit', checkRating);
 
 function checkRating(event) {
-    // console.log(event.target);
     let rateBtns = document.getElementsByClassName('rate-btn');
     for (let i = 0; i < rateBtns.length; i++) {
         if (rateBtns[i].checked == true) {
-            // alert('checked!!');
             rating = rateBtns[i].value;
             console.log(rating);
-        }
-        else {
-            // alert('not checked');
         }
     }
      return true;

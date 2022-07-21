@@ -6,8 +6,11 @@ $color__light-grey: hsl(217, 12%, 63%);
 $color__orange: hsl(25, 97%, 53%);
 $color__white: hsl(0, 0%, 100%);
 
-* {
+html {
     box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
 }
 
 form {
@@ -48,9 +51,9 @@ p {
 .card {
     margin: 0 auto;
     background: $color__dark-blue;
-    padding: 30px 20px;
+    padding: 30px 25px;
     border-radius: 15px;
-    max-width: 340px;
+    max-width: 350px;
 
     &__heading {
         font-size: 1.6rem;
@@ -58,7 +61,7 @@ p {
     }
 
     &__text {
-        line-height: 1.4;
+        line-height: 1.5;
         margin: 0;
     }
 }
@@ -126,9 +129,11 @@ label {
     text-align: center;
     display: inline-block;
 }
+
 input[type=radio] + label {
     &:active {
         background: $color__orange;
+        color: $color__white;
     }
 }
 
@@ -168,4 +173,14 @@ input [type=submit] {
    & a {
     color:hsl(25, 97%, 53%);
    }
+}
+
+@media only screen and (min-width: 64rem) {
+    .card {
+        max-width: 375px;
+    }
+    
+    label {
+        padding: 15px 20px 13px;
+    }
 }
