@@ -3,7 +3,6 @@ let adviceHeading = document.querySelector('.card__heading');
 const button = document.querySelector('.dice');
 button.addEventListener('click', fetchAdvice);
 
-
 function fetchAdvice () {
     fetch('	https://api.adviceslip.com/advice') 
         .then((response) => response.json())

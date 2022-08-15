@@ -1,7 +1,9 @@
-$color-dark: hsl(218, 23%, 16%);
+$color-blue-dark: hsl(218, 23%, 16%);
+$color-gray-blue-medium: hsl(217, 19%, 24%);
+$color-gray-blue-light: hsl(217, 19%, 38%);
 $color-green: hsl(150, 100%, 66%);
 $color-cyan-light: hsl(193, 38%, 86%);
-$color-gray-blue-light: hsl(217, 19%, 38%);
+
 
 html {
     box-sizing: border-box;
@@ -10,9 +12,10 @@ html {
     box-sizing: inherit;
 }
 
-
 body {
-    background: $color-dark;
+    background: $color-blue-dark;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -22,14 +25,12 @@ body {
 }
 
 .card {
-    
     position: relative;
     margin: 0 10px;
     max-width: 360px;
-    background: hsl(217, 19%, 24%);
+    background: $color-gray-blue-medium;
     padding: 30px 30px 60px;
     text-align: center;
-    font-family: 'Manrope', sans-serif;
     border-radius: 15px;
    
 
@@ -41,6 +42,7 @@ body {
     }
 
 }
+
 .advice {
     color: $color-cyan-light;
     font-size: 1.5rem;
@@ -74,16 +76,21 @@ body {
     &:active {
         box-shadow:0 0 35px $color-green;
     }
-  
 }
 
-footer, footer a:link, footer a:visited {
+footer {
     color: $color-cyan-light;
-
+    font-weight: 500;
 }
+
+footer a {
+    color: hsl(227, 52%, 75%);
+}
+
 @media only screen and (min-width: 1000px) {
     .card {
         max-width: 500px;
+        min-width: 360px;
         padding: 40px 45px 70px;
 
         &__heading {
@@ -95,6 +102,4 @@ footer, footer a:link, footer a:visited {
         font-size: 1.75rem;
         margin-bottom: 40px;
     }
-
-    
 }
