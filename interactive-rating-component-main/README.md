@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile View Screenshot](/images/CompletedMobileScreenshot.png)
-![Desktop View Screenshot](/images/CompletedDeskopScreenshot.png)
+![Mobile View Screenshot](images/CompletedMobileScreenshot.png)
+![Desktop View Screenshot](images/CompletedDesktopScreenshot.png)
 
 
 ### Links
