@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: hsl(218deg, 23%, 16%);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  position: relative;
+  margin: 0 10px;
+  max-width: 360px;
+  background: hsl(217deg, 19%, 24%);
+  padding: 30px 30px 60px;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  border-radius: 15px;
+}
+.card__heading {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 0.75rem;
+  margin-bottom: 25px;
+  letter-spacing: 5px;
+}
+
+.advice {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 1.5rem;
+  margin-bottom: 27px;
+}
+
+.divider {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dice {
+  display: inline-block;
+  padding: 21px 22px 16px;
+  background: hsl(150deg, 100%, 66%);
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 50%;
+  bottom: -33px;
+  transform: translateX(-50%);
+}
+.dice:hover {
+  box-shadow: 0 0 10px hsl(150deg, 100%, 66%);
+}
+.dice:active {
+  box-shadow: 0 0 35px hsl(150deg, 100%, 66%);
+}
+
+footer, footer a:link, footer a:visited {
+  color: hsl(193deg, 38%, 86%);
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    max-width: 500px;
+    padding: 40px 45px 70px;
+  }
+  .card__heading {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+  .advice {
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

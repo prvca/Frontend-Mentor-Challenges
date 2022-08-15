@@ -1,0 +1,100 @@
+$color-dark: hsl(218, 23%, 16%);
+$color-green: hsl(150, 100%, 66%);
+$color-cyan-light: hsl(193, 38%, 86%);
+$color-gray-blue-light: hsl(217, 19%, 38%);
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background: $color-dark;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    
+    position: relative;
+    margin: 0 10px;
+    max-width: 360px;
+    background: hsl(217, 19%, 24%);
+    padding: 30px 30px 60px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 15px;
+   
+
+    &__heading {
+       color: $color-green;
+       font-size: .75rem;
+       margin-bottom: 25px;
+       letter-spacing: 5px;
+    }
+
+}
+.advice {
+    color: $color-cyan-light;
+    font-size: 1.5rem;
+   
+    margin-bottom: 27px;
+    
+}
+
+.divider {
+    // width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.dice {
+    display: inline-block;
+    padding: 21px 22px 16px; 
+    background: $color-green;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: -33px;
+    transform: translateX(-50%);
+
+    &:hover {
+        box-shadow:0 0 10px $color-green;
+    }
+
+    &:active {
+        box-shadow:0 0 35px $color-green;
+    }
+  
+}
+
+footer, footer a:link, footer a:visited {
+    color: $color-cyan-light;
+
+}
+@media only screen and (min-width: 1000px) {
+    .card {
+        max-width: 500px;
+        padding: 40px 45px 70px;
+
+        &__heading {
+            font-size: .8rem;
+            margin-bottom: 30px;
+        }
+    }
+    .advice {
+        font-size: 1.75rem;
+        margin-bottom: 40px;
+    }
+
+    
+}
